@@ -1,0 +1,84 @@
+/* Main container */
+.main-header {
+    text-align: center;
+    padding: 1.5rem 0 0.5rem 0;
+}
+
+.main-header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #4F8BF9;
+}
+
+.main-header p {
+    color: #888;
+    font-size: 1rem;
+}
+
+/* Prediction result card */
+.result-card {
+    background: linear-gradient(135deg, #1e1e2e, #2a2a3e);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    border: 1px solid #4F8BF9;
+}
+
+.result-card .emotion-label {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.result-card .confidence {
+    font-size: 1rem;
+    color: #aaa;
+    margin-top: 0.5rem;
+}
+
+/* Emotion emoji map */
+.emotion-emoji {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Probability bar labels */
+.prob-label {
+    font-size: 0.85rem;
+    color: #ccc;
+    margin-bottom: 0.2rem;
+}
+
+/* Sidebar */
+.sidebar-info {
+    background: #1e1e2e;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+/* Text area styling override */
+textarea {
+    border-radius: 10px !important;
+    font-size: 1rem !important;
+}
+
+/* Button */
+.stButton > button {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, #4F8BF9, #7B5EA7);
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    transition: opacity 0.2s;
+}
+
+.stButton > button:hover {
+    opacity: 0.85;
+}
